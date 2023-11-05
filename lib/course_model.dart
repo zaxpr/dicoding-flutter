@@ -135,6 +135,131 @@ class CourseModel {
           
         ], // end course_details
       },
+      {
+        "course_id": 5,
+        "course_name": "Multi-Platform App Developer",
+        "course_image": "android_dev.png",
+        "course_details": <Map<String, dynamic>>[
+          {
+            "title": "Memulai pemrograman dengan dart",
+            "desc": "Langkah pertama untuk menjadi seorang Flutter Developer dengan mempelajari bahasa Dart yang digunakan untuk mengembangkan aplikasi dengan Flutter."
+          },
+          {
+            "title": "Belajar membuat aplikasi mobile untuk pemula",
+            "desc": "Buat aplikasi pertamamu dengan mengenal Flutter dan memahami dasar-dasar membangun tampilan Flutter dengan widget."
+          },
+          {
+            "title": "Belajar fundamental aplikasi flutter",
+            "desc": "Perdalam keahlianmu dalam mengembangkan aplikasi menggunakan Flutter dengan mempelajari cara membuat aplikasi yang dapat mengambil data dari server dan menyimpannya ke dalam database."
+          },
+          {
+            "title": "Belajar pengembangan aplikasi flutter intermediate",
+            "desc": "Memperkaya widget dan fungsionalitas Flutter untuk menunjang aplikasi yang lebih fleksibel. "
+          },
+          {
+            "title": "Belajar prinsip pemrograman SOLID",
+            "desc": "Mendalami Object-Oriented Programming (OOP) dengan belajar prinsip dasar SOLID."
+          },
+          {
+            "title": "Menjadi flutter developer expert",
+            "desc": "Pelajari best practice seperti clean architecture, TDD, modularisasi, continuous integration, performance, dan security dalam mengembangkan aplikasi Flutter."
+          },
+          
+        ], // end course_details
+      },
+      {
+        "course_id": 6,
+        "course_name": "React Developer",
+        "course_image": "android_dev.png",
+        "course_details": <Map<String, dynamic>>[
+          {
+            "title": "Belajar dasar pemrograman web",
+            "desc": "Belajar dasar adalah langkah yang tidak boleh dilewatkan untuk mahir di bidang apa pun. Di sini, Anda akan belajar dasar dari HTML, CSS dan JavaScript. sebagai 3 pilar pembentuk website."
+          },
+          {
+            "title": "Belajar dasar pemrograman javascript",
+            "desc": "Kuasai JavaScript sebagai bahasa pemrograman populer, mulai dari fundamental, sintaks dan fitur ES6, hingga konsep automation test menggunakan framework ternama."
+          },
+          {
+            "title": "Belajar membuat Front-End web untuk pemula",
+            "desc": "Seorang Front-End Web Developer harus mahir menggunakan JavaScript agar mampu membuat website yang interaktif. Di langkah ini, Anda akan belajar banyak tentang JavaScript untuk membuat websitemu menarik."
+          },
+          {
+            "title": "Belajar membuat aplikasi web dengan react",
+            "desc": "Setelah menguasai dasar Front-End Web, sekarang Anda akan mulai berkenalan dengan React di sini."
+          },
+          {
+            "title": "Belajar fundamental aplikasi web dengan react",
+            "desc": "Pelajari seluruh fundamental React di sini, agar Anda dapat membangun aplikasi React yang lebih kompleks."
+          },
+          {
+            "title": "Menjadi react web developer expert",
+            "desc": "Mahir menjadi seorang React Developer dengan mempelajari teknik Automation Testing, Redux, Deployment dengan CI/CD, hingga mengetahui praktik terbaik yang ada."
+          },
+        ],
+      },
+      {
+        "course_id": 7,
+        "course_name": "DevOps Engineer",
+        "course_image": "android_dev.png",
+        "course_details": <Map<String, dynamic>>[
+          {
+            "title": "Belajar dasar-dasar DevOps",
+            "desc": "Awali langkah pertamamu untuk menjadi seorang DevOps Engineer dengan mengenal kultur, praktik, dan tools DevOps."
+          },
+          {
+            "title": "Belajar jaringan komputer pemula",
+            "desc": "Lanjutkan perjalananmu dengan memahami dan menekuni ilmu jaringan komputer."
+          },
+          {
+            "title": "Menjadi linux system",
+            "desc": "Pelajari dan dalami fundamental sistem operasi Linux, mulai dari mengenal shell, mengelola sistem, hingga membuat container."
+          },
+          {
+            "title": "Belajar implementasi CI/CD",
+            "desc": "Belajar membuat aplikasi dengan mengimplementasikan praktik CI/CD."
+          },
+          {
+            "title": "Belajar membangun arsitektur Microservices",
+            "desc": "Asah dan uji keterampilanmu dalam membangun arsitektur microservices dengan mempraktikkan Container, Container Registry, dan Kubernetes."
+          },
+        ],
+      },
+      {
+        "course_id": 8,
+        "course_name": "Data Scientist",
+        "course_image": "android_dev.png",
+        "course_details": <Map<String, dynamic>>[
+          {
+            "title": "Belajar dasar data science",
+            "desc": "Awali langkah pertamamu untuk menjadi seorang Data Scientist dengan mengenal konsep dasar, praktik, dan tools dalam data science."
+          },
+          {
+            "title": "Belajar dasar Structured Query Language (SQL)",
+            "desc": "Lanjutkan perjalananmu dengan belajar dasar Structured Query Language (SQL) sebagai tool untuk berkomunikasi dengan database."
+          },
+          {
+            "title": "Memulai pemrograman dengan python",
+            "desc": "Pelajari dasar Python sebagai tools utama untuk menjadi seorang Data Scientist."
+          },
+          {
+            "title": "Belajar Analisis data dengan python",
+            "desc": "Belajar berbagai tahapan dalam menganalisis data menggunakan Python sebagai langkah awal dalam menyelesaikan permasalahan bisnis dan menggali insight dari data."
+          },
+          {
+            "title": "Belajar machine learning  untuk pemula",
+            "desc": "Pelajari konsep dasar algoritma machine learning sebagai tools andalan dalam data science dan buat model machine learning pertamamu."
+          },
+          {
+            "title": "Belajar pengembangan machine learning",
+            "desc": "Perkaya wawasanmu dengan belajar contoh pengimplementasian machine learning dan deep learning dalam lingkup industri."
+          },
+          {
+            "title": "Belajar penerapan data science",
+            "desc": "Siapkan dirimu untuk berkarir menjadi seorang Data Scientist dengan mengerjakan berbagai studi kasus data science yang umum dijumpai di industri."
+          },
+        ],
+      },
     ];
   }
 }

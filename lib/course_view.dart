@@ -21,7 +21,13 @@ class _CourseViewState extends State<CourseView> {
       int i = 1;
       widget.course["course_details"].forEach((row) {
         courseDetails.add(
-          Container(
+          Card(
+            shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(10),
+                        ),
+            elevation: 3,
+            color: Colors.white,
+            child: Container(
             margin: EdgeInsets.all(10),
             child: Column(children: [
               Align(
@@ -32,6 +38,7 @@ class _CourseViewState extends State<CourseView> {
                 alignment: Alignment.topLeft,
                 child: Text(row["desc"]))
             ],),
+          )
           )
         );
         i++;

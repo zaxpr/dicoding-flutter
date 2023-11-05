@@ -10,6 +10,13 @@ class HomeView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        title: Text('IDCamp 2023'), 
+        titleTextStyle: TextStyle(fontWeight: FontWeight.bold, fontSize: 24),
+        centerTitle: true,
+        backgroundColor: Colors.blue,
+        elevation: 5,
+      ),
       body: ListView(
         children: [
           SpGrid(
@@ -20,12 +27,18 @@ class HomeView extends StatelessWidget {
                   sm: 6,
                   md: 4,
                   lg: 3,
-                  child: Container(
+                  child: Card(
+                    shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(8),
+                        ),
+                    elevation: 1,
+                    color: Colors.white,
+                    child: Container(
                     margin: EdgeInsets.all(10),
                     child: InkWell(
                       child: Image(
                           image: AssetImage("assets/" + e.value["course_image"])),
-                      onTap: () {
+                      onTap: () async {
                         Navigator.push(
                           context,
                           MaterialPageRoute(
@@ -35,6 +48,7 @@ class HomeView extends StatelessWidget {
                         );
                       },
                     ),
+                  )
                   ));
             }).toList(),
           ),
