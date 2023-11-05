@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import './course_model.dart';
 import './course_view.dart';
 
+// ignore: must_be_immutable
 class HomeView extends StatelessWidget {
   CourseModel courseM = new CourseModel();
   @override
@@ -16,7 +17,7 @@ class HomeView extends StatelessWidget {
               onTap: () {
                 Navigator.push(context, MaterialPageRoute(
                   builder: (context) => CourseView(
-                    //course_id: e.value["course_id"],
+                    course: e.value,
                   )
                 ),);
               },
