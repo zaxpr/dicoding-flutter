@@ -58,6 +58,10 @@ flutter:
     - assets/frontend_dev.png
     - assets/ml_dev.png
     - assets/backend_dev.png
+    - assets/datasc_dev.png
+    - assets/devops_dev.png
+    - assets/multipl_dev.png
+    - assets/react_dev.png
 
 
   # The following line ensures that the Material Icons font is
